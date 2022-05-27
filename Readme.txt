@@ -14,14 +14,14 @@ neuromodulation in olfactory bulb.  Journal of Neuroscience
 33:3037-3058.
 
 For questions, please email: gl275@cornell.edu
-	
+
 The OB network model contains 25 mitral cells (MCs), 25 periglomerular
 cells (PGs) and 100 granule cell (GCs)
- 
+
 The package contains five folders:
 
 "celldata" folder to store data from single cell simulations
-"data" folder to store data from network simulations 
+"data" folder to store data from network simulations
 "SP" folder to store the timing of random background spikes to MCs
 "Connection" folder to store the connectivity information between MCs
      and GCs
@@ -48,7 +48,7 @@ NTCE = 1: Glomerular model without EPL (i.e., no granule cells)
 NICOTIN  = 0: nAChRs inactive
 NICOTIN  = 1: nAChRs activated
 MUSCARIN = 0: mAChRs inactive
-MUSCARIN = 1: mAChRs activated	 
+MUSCARIN = 1: mAChRs activated
 
 The default setting is the full model under the Control case (nAChRs
 and mAChRs inactive)
@@ -61,3 +61,8 @@ PlotG.m: plot GABAa conductances
 Raster.m: generate raster plots of spikes
 LFP.m: frequency analysis of the sLFP
 Phase.m: generate phase distribution plot and raster plot of spike phases
+
+Changelog
+---------
+2022-05: Updated MOD files to compile with the latest neuron releases where
+         ion variables used as STATE can not be declared as GLOBAL.
