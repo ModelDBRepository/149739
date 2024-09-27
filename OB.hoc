@@ -4,7 +4,7 @@
 
 // Simulation results are presented in the associated paper:
 // Li and Cleland (2013) A two-layer biophysical model of cholinergic neuromodulation in olfactory bulb. 
-// Journal of Neuroscience 33:3037–3058.
+// Journal of Neuroscience 33:3037â€“3058.
 
 xopen("$(NEURONHOME)/lib/hoc/noload.hoc") // standard run tools
 xopen("tabchannels.hoc")
